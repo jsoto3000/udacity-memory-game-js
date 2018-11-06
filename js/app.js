@@ -15,7 +15,7 @@ window.onload = function() {
                 minutes = 0;
                 seconds = 0;
             }
-            $('.timer').html(hours + ':' + minutes + ':' + seconds); 
+            $('.timer').html(hours + ':' + minutes + ':' + seconds);
             console.log(minutes);
             console.log(seconds);
         }
@@ -149,12 +149,12 @@ showCardOnClick = function(clickEvent) {
                     swal({
                         title: 'Congratulations',
                         type: 'Success',
-                        text: 'You have won the game. You surrendered ' + moves + ' moves and' + ' you received ' + stars + 'star(s). ' + 'Your Time was ' + hours + ' Hours ' + minutes + ' Minutes and ' + seconds + ' Seconds',
+                        text: 'You have won the game. You used a total of ' + moves + ' moves and' + ' you received ' + stars + 'star(s). ' + 'Your Time was ' + hours + ' Hours ' + minutes + ' Minutes and ' + seconds + ' Seconds',
                         allowOutsideClick: false,
                         showCancelButton: true,
                         confirmButtonText: 'Play Again',
-                        confirmButtonColor: '#0000FF',
-                        cancelButtonText: 'Close',
+                        confirmButtonColor: '15520E',
+                        cancelButtonText: 'Cancel',
                         cancelButtonColor: '#FF0000'
                     }).then(function() {
                         location.reload();
